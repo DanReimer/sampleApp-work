@@ -9,7 +9,7 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-equire 'securerandom'
+require 'securerandom'
 
 def secure_token
   token_file = Rails.root.join('.secret')
@@ -24,4 +24,4 @@ def secure_token
   end
 end
 
-SampleApp::application.config.secret_key_base = secure_token
+SampleApp::Application.config.secret_key_base = secure_token
