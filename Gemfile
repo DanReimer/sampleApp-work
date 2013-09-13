@@ -24,7 +24,7 @@ gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.0'
 gem 'jquery-rails', '3.0.4'
 gem 'turbolinks', '1.1.1'
-gem 'jbuilder', '1.0.2'
+# gem 'jbuilder', '1.0.2'
 gem 'therubyracer', :platform => :ruby
 gem 'execjs'
 
@@ -38,10 +38,10 @@ group :production do
 end
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
-# gem 'jbuilder'
+gem 'jbuilder'
 
 # Use unicorn as the app server
 # gem 'unicorn'
